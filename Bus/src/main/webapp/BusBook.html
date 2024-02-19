@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<center><h1>Book your ticket</h1></center>
+    <center>
+        <div>
+            <form action="MannyBook" method="post"> 
+            	<br>
+                <input type="text" placeholder="From point" name="from">
+                <br>
+                <br>
+                <input type="text" placeholder="To Point" name="to">
+                <br>
+                <br>
+                <input type="date" placeholder="Choose your Date" name="date">
+                <br>
+                <br>
+                <button type="submit">BookTicket</button>
+            </form>
+        </div>
+</center>
+</body>
+<style>
+    body,html{
+        margin: 0;
+        padding: 0;
+        background-image: linear-gradient(90deg,#f7bb97,#734b6d);
+    }
+    button{
+        background-color: red;
+    }
+    div{
+        border: 2px solid black;
+        background-color: bisque;
+        width: 200px;
+        height: 400px;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        top: 10%;
+        left: 44%;
+        border-radius: 15% 15% 55% 55%;
+    }
+    h1{
+        color:blue;
+        font-family: 'Protest Revolution';
+    }
+</style>
+</html>
